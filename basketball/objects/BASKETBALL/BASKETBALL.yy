@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_basketball",
-    "path": "sprites/s_basketball/s_basketball.yy",
+    "name": "s_senriball",
+    "path": "sprites/s_senriball/s_senriball.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,6 +23,7 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"BASKETBALL","path":"objects/BASKETBALL/BASKETBALL.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"BASKETBALL","path":"objects/BASKETBALL/BASKETBALL.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"BASKETBALL","path":"objects/BASKETBALL/BASKETBALL.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

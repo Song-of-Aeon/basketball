@@ -1,12 +1,12 @@
 function st_standard() {
-	show_debug_message("start");
+	/*show_debug_message("start");
 	show_debug_message(aerial);
-	show_debug_message(y);
+	show_debug_message(y);*/
 	if hput != 0 {
 	    hspd += hput * acc;
 	    hspd = clamp(hspd, -maxhspd, maxhspd);
 	}
-	if !place_meeting(x, y+5, o_solid)  {
+	if !place_meeting(x, y+8, o_solid)  {
 	    vspd += grav;
 	    hspd = lerp(hspd, 0, frict/2);
 	    aerial = true;
@@ -29,9 +29,9 @@ function st_standard() {
 			vaimult = -vaimult;
 		}
 	} else {
-		haim = 0;
+		haim = 5;
 		haimult = -.2;
-		vaim = 5;
+		vaim = 0;
 		vaimult = .2;
 	}
 	if vspd < 0 {
@@ -52,7 +52,7 @@ function st_standard() {
 
 	x += hspd;
 	y += vspd;
-	show_debug_message(vspd);
+	/*show_debug_message(vspd);
 	show_debug_message(aerial);
-	show_debug_message("end");
+	show_debug_message("end");*/
 }

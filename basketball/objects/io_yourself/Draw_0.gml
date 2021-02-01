@@ -1,4 +1,4 @@
-if up {
+if up && actionstate = st_withball {
 	draw_arrow(x, y, x+haim*image_xscale*20, y-vaim*20, 10);
 }
 draw_self();

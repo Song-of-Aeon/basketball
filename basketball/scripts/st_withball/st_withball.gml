@@ -1,11 +1,11 @@
 function st_withball() {
 	if dribble {
-		if aerial {
+		/*if aerial {
 			
-		} else if up {
+		} else*/ if up {
 			BASKETBALL.holder = noone;
-			BASKETBALL.hspd = haim*image_xscale;
-			BASKETBALL.vspd = -vaim;
+			BASKETBALL.hspd = haim*image_xscale*2;
+			BASKETBALL.vspd = -vaim*2;
 		} else {
 			BASKETBALL.holder = noone;
 			BASKETBALL.vspd = 1;

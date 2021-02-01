@@ -14,11 +14,12 @@
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},"order":0,},
     {"id":{"name":"s_senriball","path":"sprites/s_senriball/s_senriball.yy",},"order":4,},
     {"id":{"name":"st_standard","path":"scripts/st_standard/st_standard.yy",},"order":1,},
+    {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},"order":15,},
     {"id":{"name":"st_noball","path":"scripts/st_noball/st_noball.yy",},"order":3,},
     {"id":{"name":"credits","path":"notes/credits/credits.yy",},"order":1,},
     {"id":{"name":"st_withball","path":"scripts/st_withball/st_withball.yy",},"order":4,},
     {"id":{"name":"s_solid","path":"sprites/s_solid/s_solid.yy",},"order":1,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"court","path":"rooms/court/court.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -34,7 +35,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"court","path":"rooms/court/court.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
