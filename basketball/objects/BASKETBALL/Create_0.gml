@@ -7,3 +7,7 @@ maxhspd = 5;
 maxvspd = 5;
 scored = false;
 grav = .14;
+global.presence = 0;
+global.rulecount = 0;
+
+RULES();

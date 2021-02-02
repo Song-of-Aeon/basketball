@@ -6,7 +6,7 @@ function st_standard() {
 	    hspd += hput * acc;
 	    hspd = clamp(hspd, -maxhspd, maxhspd);
 	}
-	if !place_meeting(x, y+8, o_solid)  {
+	if !place_meeting(x, y+2, o_solid) {
 	    vspd += grav;
 	    hspd = lerp(hspd, 0, frict/2);
 	    aerial = true;
